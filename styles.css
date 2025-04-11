@@ -1,0 +1,17 @@
+.nav_Toggler ul li a {
+    font-family: Roboto,sans-serif!important;
+    color: white;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container-fluid .card-title {
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970;
+    background-color: cornsilk;
+    text-align: center;
+}
