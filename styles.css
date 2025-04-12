@@ -7,11 +7,52 @@ body{
     background-color: antiquewhite;
 }
 
-.container-fluid .card-title {
+.container-fluid .card-title_Login {
     padding: 0 0 15px 0;
     font-size: 18px;
     font-weight: 500;
     color: #012970;
     background-color: cornsilk;
     text-align: center;
+}
+
+
+
+.news-section, .guide-section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.news-section h2, .guide-section h2 {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.news-item, .guide-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+.news-item a, .guide-item a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+.news-item a:hover, .guide-item a:hover {
+    text-decoration: underline;
+}
+.news-item .date, .guide-item .date {
+    font-size: 0.8rem;
+    color: #888;
+}
+.new-icon {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: small;
 }
