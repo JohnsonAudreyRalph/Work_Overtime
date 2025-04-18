@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #f4f7fb;
+}
+.navbar {
+    background: linear-gradient(to right, #03A9F4, #3b82f6);
+    height: 56px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-4px);
+}
+.schedule-box {
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    transition: background-color 0.2s;
+}
+.schedule-box:hover {
+    background-color: #e2e8f0;
+}
+.chart-container {
+    position: relative;
+    height: 200px;
+}
+.bar {
+    background-color: #10b981;
+    border-radius: 4px;
+}
+.dropdown-button {
+    background-color: #03A9F4;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 16px;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+.dropdown-button:hover {
+    background-color: #0288D1; /* Sửa để hover rõ hơn */
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #03A9F4;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    transform: translateY(4px);
+    transition: all 0.2s;
+}
+.dropdown-content a {
+    color: white;
+    padding: 10px 16px;
+    display: block;
+    font-weight: 400;
+}
+.dropdown-content a:hover {
+    background-color: #1e748a;
+    border-radius: 4px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.account-info {
+    font-size: 13px;
+    color: #374151;
+}
+.btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+.btn-orange:hover {
+    background-color: #ea580c;
+}
+.btn-blue:hover {
+    background-color: #1e3a8a;
+}
+
+/* Các lớp mới để thay thế inline styles */
+.main-container {
+    margin: 20px;
+}
+.center-column {
+    margin: 0 3%;
+}
+.account-info-card {
+    border: 1px solid white;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
